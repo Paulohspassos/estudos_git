@@ -4,3 +4,7 @@ Principais comandos do git:
     - git add - prepara o aruivo para ser commitado
     - git commit -m 'mensagem' - salva o arquivo na branch atual salvando alterações
     - git branch - visualiza a linha de progresso do projeto
+    - git branch <nome_da_branch> - insere uma nome linha de progresso paralela à linha principal ou master
+    - git checkout <nome_da_branch> - alterna entre as branchs existentes
+    - git merge - insere as alterações feitas na branch secundária para a branch principal
+    

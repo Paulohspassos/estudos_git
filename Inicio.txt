@@ -6,5 +6,5 @@ Principais comandos do git:
     - git branch - visualiza a linha de progresso do projeto
     - git branch <nome_da_branch> - insere uma nome linha de progresso paralela à linha principal ou master
     - git checkout <nome_da_branch> - alterna entre as branchs existentes
-    - git merge - insere as alterações feitas na branch secundária para a branch principal
+    - git merge <nome_da_branch> - insere as alterações feitas na branch secundária para a branch principal
     

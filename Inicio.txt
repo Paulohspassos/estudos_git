@@ -1,1 +1,6 @@
 Aqui começamos nossos estudos de git e github
+Principais comandos do git:
+    - git status - Verifica estado dos arquivos do nosso projetos
+    - git add - prepara o aruivo para ser commitado
+    - git commit -m 'mensagem' - salva o arquivo na branch atual salvando alterações
+    - git branch - visualiza a linha de progresso do projeto

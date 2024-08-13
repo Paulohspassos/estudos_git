@@ -1,0 +1,6 @@
+Primeira branch
+
+Alteração feit pela branch master
+
+Essa linha foi adicionada pela branch2
+

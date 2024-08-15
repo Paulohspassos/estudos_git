@@ -1,0 +1,5 @@
+Primeira linha inserida
+Para verificar as versões anteriores podemos usar o comando "git log" para verificar as keys geradas pelo git e posterior usar "git checkout <key da versão> para ver essa versão do arquivo
+Para voltar a versão mais atual usamos o comando 'git checkout master'
+Podemos sincronizar nossa conta do github com nosso git, mas antes precisamos ter em mente que podemos baixar qualquer repositório do git direto em nossa máquina usando o comando: "git clone <url>", esse comando baixa um repositório especifico.
+Para enviar um arquivo ou uma atualização, usamos o comando: "git push <nome_do_arquivo>

@@ -1,1 +1,2 @@
 As issues são requisições de correção de bugs ou de novas features em um projeto, é a forma mais eficiente de interagir com uma equipe, além de também poder ser usado para organização de um projeto.
+Podemos apontar qual commit resolveu o issue solicitado, inserindo a key do commit.

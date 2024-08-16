@@ -17,3 +17,6 @@ Principais comandos do git:
     - git add remote <nome_do_repositório, por padrão usamos 'upstream'> <url_do_repositório_original> - cria uma cópia de um repositório na nossa conta do github
     - git remote -v - apresenta quantos repositórios remotos fazem parte do projetos
     - git pull <upstream> <branch_usada> - baixa atualização do repositório copiado junto com a branch usada
+
+    
+>>>>>>> 9e5fbf1506461871dbdb6609ca971b12453242ba

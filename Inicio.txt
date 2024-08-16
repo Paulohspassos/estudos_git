@@ -14,3 +14,6 @@ Principais comandos do git:
     - q - sai do modo de log
     - git pull - atualiza a sincronização da pasta com o github para poder fazer o git push
     - git push origin <nome_da_branch> - envia para o github a branch ainda não mergeada
+    - git add remote <nome_do_repositório, por padrão usamos 'upstream'> <url_do_repositório_original> - cria uma cópia de um repositório na nossa conta do github
+    - git remote -v - apresenta quantos repositórios remotos fazem parte do projetos
+    - git pull <upstream> <branch_usada> - baixa atualização do repositório copiado junto com a branch usada

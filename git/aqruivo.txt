@@ -4,3 +4,11 @@ Para voltar a versão mais atual usamos o comando 'git checkout master'
 Podemos sincronizar nossa conta do github com nosso git, mas antes precisamos ter em mente que podemos baixar qualquer repositório do git direto em nossa máquina usando o comando: "git clone <url>", esse comando baixa um repositório especifico.
 Para enviar um arquivo ou uma atualização, usamos o comando: "git push <nome_do_arquivo>
 Para inserir um emoji basta colocar ":" e aparecerá as opções.
+Upstream é o repositório principal
+Para se fazer uma cópia de um repositório principal para a nossa conta do github, primeiro obtemos o endereço do repositório e no bash do vscode inserimos o comando: "git add remote <nome_para o repositório, por padrão usamos 'upstream'> <url_do_repositório_original>
+Para se atualizar as atualizações do projeto usamos o comando: "git pull <upstream> <branch_usada>, em seguida fazer um "git push" e pronto, o repositório está atualizado.
+Rebase é um recurso capaz de project history (histórico do projeto), 
+alterar a ordem dos commits, unir commits, modificar mensagem dos commits, ou seja, tudo o que tem a ver com o histórico do nosso commit, podemos alterar.
+Commits não são apenas pontos de backup, mas uma ferramenta para manter um histórico de tudo o que aconteceu no projeto.
+Os comandos 'Rebase' e 'merge' servem para intergrar alterações de uma branch em outra.
+O merge não altera (destrói) a linha tempo de uma branch, já o comando rebase destrói a linha alternativa deixando o histórico muito mais limpo 

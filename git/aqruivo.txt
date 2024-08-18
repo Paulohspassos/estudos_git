@@ -11,4 +11,6 @@ Rebase é um recurso capaz de project history (histórico do projeto),
 alterar a ordem dos commits, unir commits, modificar mensagem dos commits, ou seja, tudo o que tem a ver com o histórico do nosso commit, podemos alterar.
 Commits não são apenas pontos de backup, mas uma ferramenta para manter um histórico de tudo o que aconteceu no projeto.
 Os comandos 'Rebase' e 'merge' servem para intergrar alterações de uma branch em outra.
-O merge não altera (destrói) a linha tempo de uma branch, já o comando rebase destrói a linha alternativa deixando o histórico muito mais limpo 
+O merge não altera (destrói) a linha tempo de uma branch, já o comando rebase destrói a linha alternativa deixando o histórico muito mais limpo.
+Nunca faça rebase em branchs que são compartilhadas ou que estão no github como publica, pois isso pode destruir o history project master.
+Usar rebase apenas quando queremos um histórico limpo em uma branch local ou remoto privado de um projeto
